@@ -1,0 +1,2873 @@
+.top{width: 100%; height: 5rem; background-color: rgb(255, 255, 255);}
+.top-content{width: 100%;height: 5rem; display: flex;align-items: center;justify-content: center;
+     background-color: rgb(255, 255, 255);}
+
+.top-left{width: 30%;height: 5rem; background-color: rgb(255, 255, 255);display: flex;
+    align-items: center;justify-content: center;}
+
+.search{width: 100%;height: 50px; background-color: rgb(255, 255, 255);display: flex;align-items: center;justify-content: center;}
+.search-input .input{display: inline-flex;align-items: center; position: relative;}
+.input input{width: 350px;height:50px; border:0; background-color: rgb(255, 255, 255); 
+    display: flex;align-items: center;justify-content: center;}
+.search-input .button{cursor: pointer;}
+.search-input hr{size: 1px; color: #000;}
+
+
+
+
+
+
+
+
+.top-center{width: 30%;height: 5rem; background-color: rgb(255, 255, 255);display: flex;align-items: center; justify-content: center;}
+.title a{font-family:'cambria';font-size: 50px;text-decoration: none;color:#000;}
+
+
+
+.top-right{width: 30%;height: 5rem; background-color: rgb(255, 255, 255);display: flex;align-items: center; justify-content:flex-end;}
+.tubiao-group span{width: 30px;height: 30px;margin: 15px;}
+.tubiao-group{cursor: pointer;}
+
+/* .tubiao-group{overflow: visible;} */
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+
+.menu{width: 100%;height: 50px;background-color: rgb(255, 255, 255);
+    display: flex;align-items: center; justify-content: center;}
+.nav{width: 100%; height: 50px;display: flex;justify-content: center;align-items: center;
+     list-style: none;}
+.nav>li{float: left;line-height: 50px;margin: 0 15px; text-align: center;display: block;
+        position: relative;background-color: rgb(255, 255, 255);}
+.nav a{text-decoration: none; color: #000;font-family: '新宋体';}
+
+
+
+/* 第一个 */
+    .nav .li1 .yc1{
+    width: 1500px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);    
+    position: absolute;
+    left: -395px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+}
+
+
+.yc1 .list1{width: 100%;height: 450px;
+    display: flex; justify-content: center; }
+.list1 ul {display: flex;flex-direction: column;justify-items: center; margin: 10px; }
+.list1 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list1 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li1:hover .yc1{
+    display: block;
+}
+.nav .li1:hover{text-decoration: underline;}
+.list1 a:hover{font-weight: bold;}
+
+
+/* 第二个 */
+.nav .li2 .yc2{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -490px;
+    top: 50px;
+    z-index: 6;
+    display: none;
+}
+
+.yc2 .list2{width: 100%;height: 800px;
+    display: flex; justify-content: center; }
+.list2 ul {display: flex;flex-direction: column;justify-items: center; margin: 10px; }
+.list2 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list2 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li2:hover .yc2{
+    display: block;
+}
+.nav .li2:hover{text-decoration: underline;}
+.list2 a:hover{font-weight: bold;}
+
+/* 第三个 */
+.nav .li3 .yc3{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -580px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+}
+
+.yc3 .list3{width: 100%;height: 800px;
+    display: flex; justify-content: center; }
+.list3 ul {display: flex;flex-direction: column;justify-items: center; margin: 10px; }
+.list3 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list3 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li3:hover .yc3{
+    display: block;
+}
+.nav .li3:hover{text-decoration: underline;}
+.list3 a:hover{font-weight: bold;}
+
+
+/* 第四个 */
+.nav .li4 .yc4{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -670px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+}
+
+.yc4 .list4{width: 100%;height: 800px;
+    display: flex; justify-content: center; }
+.list4 ul {display: flex;flex-direction: column;justify-items: center; margin: 30px; }
+.list4 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list4 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li4:hover .yc4{
+    display: block;
+}
+.nav .li4:hover{text-decoration: underline;}
+.list4 a:hover{font-weight: bold;}
+
+/* 第五个 */
+.nav .li5 .yc5{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -740px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+}
+
+.yc5 .list5{width: 100%;height: 800px;
+    display: flex; justify-content: center; }
+.list5 ul {display: flex;flex-direction: column;justify-items: center; margin: 30px; }
+.list5 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list5 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li5:hover .yc5{
+    display: block;
+}
+.nav .li5:hover{text-decoration: underline;}
+.list5 a:hover{font-weight: bold;}
+
+/* 第六个 */
+.nav .li6 .yc6{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -800px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+}
+
+.yc6 .list6{width: 100%;height: 800px;
+    display: flex; justify-content: center; }
+.list6 ul {display: flex;flex-direction: column;justify-items: center; margin: 30px; }
+.list6 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list6 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li6:hover .yc6{
+    display: block;
+}
+.nav .li6:hover{text-decoration: underline;}
+.list6 a:hover{font-weight: bold;}
+
+/* 第七个 */
+.nav .li7 .yc7{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -860px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+}
+
+.yc7 .list7{width: 100%;height: 800px;
+    display: flex; justify-content: center; }
+.list7 ul {display: flex;flex-direction: column;justify-items: center; margin: 30px; }
+.list7 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list7 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li7:hover .yc7{
+    display: block;
+}
+.nav .li7:hover{text-decoration: underline;}
+.list7 a:hover{font-weight: bold;}
+
+/* 第八个 */
+.nav .li8 .yc8{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -960px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+}
+
+.yc8 .list8{width: 100%;height: 800px;
+    display: flex; justify-content: center; }
+.list8 ul {display: flex;flex-direction: column;justify-items: center; margin: 30px; }
+.list8 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list8 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li8:hover .yc8{
+    display: block;
+}
+.nav .li8:hover{text-decoration: underline;}
+.list8 a:hover{font-weight: bold;}
+
+/* 第九个 */
+.nav .li9 .yc9{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -1020px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+}
+
+.yc9 .list9{width: 100%;height: 800px;
+    display: flex; justify-content: center; }
+.list9 ul {display: flex;flex-direction: column;justify-items: center; margin: 10px; }
+.list9 ul li{list-style-type: none; display: block; line-height: 20px;text-align: left;
+    margin: 5px;}
+.list9 a{font-size: 13px;text-decoration: none;font-family:'Bell MT';}
+
+.nav .li9:hover .yc9{
+    display: block;
+}
+.nav .li9:hover{text-decoration: underline;}
+.list9 a:hover{font-weight: bold;}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 100px;
+
+   
+}
+
+.footer1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(174, 174, 174);
+    border-left:none;
+    border-right:none;
+}
+
+.footer1 ul{
+    background-color: rgb(255, 255, 255);
+
+    width: 25%;
+    height: 80%;
+    display: block;
+    margin: 20px;
+    
+    
+}
+
+.footer ul li{
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+    display: block;
+    font-size: 13px;
+    
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+select{width: 280px;
+height: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{width: 100%;height: 170px;display: flex;flex-direction: column;
+    justify-content: center;text-align: center;
+ }
+.title h2{width: 100%;display: block; height: 30px;
+    font-family: '宋体'; }
+.title p{width: 100%;display: block; height: 20px;
+    font-family: '宋体';}
+
+/* 最外盒子 */
+.main1{width: 1450px;height: auto; display:block;margin: 0 auto;}
+/*  */
+.main1 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main1 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main1 .main .left .img{width: 450px;height: 260px;background:url(../img/d（82）.jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main1 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main1 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main1 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main1 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main1 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main1 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main1 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main1 .main .text .button a{text-decoration: none;color: #000;}
+.main1 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main1 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main1 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(51\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main1 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main1 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main1 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main1 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main1 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main1 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main1 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main1 .main .text .button a{text-decoration: none;color: #000;}
+.main1 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main1 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main1 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(49\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main1 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main1 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main1 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main1 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main1 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main1 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main1 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main1 .main .text .button a{text-decoration: none;color: #000;}
+.main1 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main2{width: 1450px;height: auto; display:block;margin: 0 auto; margin-top: 30px;}
+/*  */
+.main2 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 550px;
+    display: flex;justify-content: space-between;align-items: center;}
+/* 左盒子 */
+.main2 .main .left{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main2 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(53\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main2 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main2 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main2 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main2 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main2 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main2 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main2 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main2 .main .text .button a{text-decoration: none;color: #000;}
+.main2 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main2 .main .center{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main2 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(56\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main2 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main2 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main2 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main2 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main2 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main2 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main2 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main2 .main .text .button a{text-decoration: none;color: #000;}
+.main2 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main2 .main .right{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main2 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(1\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main2 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main2 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main2 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main2 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main2 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main2 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main2 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main2 .main .text .button a{text-decoration: none;color: #000;}
+.main2 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main3{width: 1450px;height: auto; display:block;margin: 0 auto; margin-top: 30px;}
+/*  */
+.main3 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 550px;
+    display: flex;justify-content: space-between;align-items: center;}
+/* 左盒子 */
+.main3 .main .left{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main3 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(52\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main3 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main3 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main3 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main3 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main3 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main3 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main3 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main3 .main .text .button a{text-decoration: none;color: #000;}
+.main3 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main3 .main .center{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main3 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(62\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main3 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main3 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main3 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main3 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main3 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main3 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main3 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main3 .main .text .button a{text-decoration: none;color: #000;}
+.main3 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main3 .main .right{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main3 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(55\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main3 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main3 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main3 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main3 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main3 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main3 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main3 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main3 .main .text .button a{text-decoration: none;color: #000;}
+.main3 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main4{width: 1450px;height: auto; display:block;margin: 0 auto; margin-top: 30px;}
+/*  */
+.main4 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 550px;
+    display: flex;justify-content: space-between;align-items: center;}
+/* 左盒子 */
+.main4 .main .left{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main4 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(55\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main4 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main4 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main4 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main4 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main4 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main4 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main4 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main4 .main .text .button a{text-decoration: none;color: #000;}
+.main4 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main4 .main .center{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main4 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(59\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main4 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main4 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main4 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main4 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main4 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main4 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main4 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main4 .main .text .button a{text-decoration: none;color: #000;}
+.main4 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main4 .main .right{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main4 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(50\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main4 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main4 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main4 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main4 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main4 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main4 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main4 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main4 .main .text .button a{text-decoration: none;color: #000;}
+.main4 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main5{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main5 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main5 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main5 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(58\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main5 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main5 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main5 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main5 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main5 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main5 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main5 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main5 .main .text .button a{text-decoration: none;color: #000;}
+.main5 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main5 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main5 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(60\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main5 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main5 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main5 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main5 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main5 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main5 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main5 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main5 .main .text .button a{text-decoration: none;color: #000;}
+.main5 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main5 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main5 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(61\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main5 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main5 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main5 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main5 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main5 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main5 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main5 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main5 .main .text .button a{text-decoration: none;color: #000;}
+.main5 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main6{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main6 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main6 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main6 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(63\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main6 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main6 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main6 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main6 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main6 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main6 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main6 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main6 .main .text .button a{text-decoration: none;color: #000;}
+.main6 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main6 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main6 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(64\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main6 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main6 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main6 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main6 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main6 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main6 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main6 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main6 .main .text .button a{text-decoration: none;color: #000;}
+.main6 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main6 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main6 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(65\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main6 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main6 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main6 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main6 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main6 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main6 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main6 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main6 .main .text .button a{text-decoration: none;color: #000;}
+.main6 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main7{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main7 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main7 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main7 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(66\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main7 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main7 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main7 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main7 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main7 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main7 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main7 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main7 .main .text .button a{text-decoration: none;color: #000;}
+.main7 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main7 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main7 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(67\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main7 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main7 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main7 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main7 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main7 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main7 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main7 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main7 .main .text .button a{text-decoration: none;color: #000;}
+.main7 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main7 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main7 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(68\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main7 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main7 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main7 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main7 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main7 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main7 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main7 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main7 .main .text .button a{text-decoration: none;color: #000;}
+.main7 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main8{width: 1450px;height: auto; display:block;margin: 0 auto; margin-top: 30px;}
+/*  */
+.main8 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 550px;
+    display: flex;justify-content: space-between;align-items: center;}
+/* 左盒子 */
+.main8 .main .left{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main8 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(69\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main8 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main8 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main8 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main8 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main8 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main8 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main8 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main8 .main .text .button a{text-decoration: none;color: #000;}
+.main8 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main8 .main .center{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main8 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(70\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main8 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main8 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main8 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main8 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main8 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main8 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main8 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main8 .main .text .button a{text-decoration: none;color: #000;}
+.main8 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main8 .main .right{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main8 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(71\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main8 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main8 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main8 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main8 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main8 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main8 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main8 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main8 .main .text .button a{text-decoration: none;color: #000;}
+.main8 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main9{width: 1450px;height: auto; display:block;margin: 0 auto; margin-top: 30px;}
+/*  */
+.main9 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 550px;
+    display: flex;justify-content: space-between;align-items: center;}
+/* 左盒子 */
+.main9 .main .left{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main9 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(72\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main9 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main9 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main9 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main9 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main9 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main9 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main9 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main9 .main .text .button a{text-decoration: none;color: #000;}
+.main9 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main9 .main .center{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main9 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(73\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main9 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main9 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main9 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main9 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main9 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main9 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main9 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main9 .main .text .button a{text-decoration: none;color: #000;}
+.main9 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main9 .main .right{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main9 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(74\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main9 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main9 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main9 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main9 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main9 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main9 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main9 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main9 .main .text .button a{text-decoration: none;color: #000;}
+.main9 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main10{width: 1450px;height: auto; display:block;margin: 0 auto; margin-top: 30px;}
+/*  */
+.main10 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 550px;
+    display: flex;justify-content: space-between;align-items: center;}
+/* 左盒子 */
+.main10 .main .left{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main10 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(75\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main10 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main10 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main10 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main10 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main10 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main10 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main10 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main10 .main .text .button a{text-decoration: none;color: #000;}
+.main10 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main10 .main .center{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main10 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(76\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main10 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main10 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main10 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main10 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main10 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main10 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main10 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main10 .main .text .button a{text-decoration: none;color: #000;}
+.main10 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main10 .main .right{width: 450px;height: 550px;border: 1px solid rgb(182, 182, 182);background-color: azure;}
+.main10 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(77\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main10 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 290px;
+    display: flex;align-items: center;justify-content: center;}
+.main10 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 290px;
+    display: flex;align-items: center;justify-content:center;}
+.main10 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 230px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main10 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 100px;
+display: flex;align-items: center;justify-content: center;}
+.main10 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main10 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main10 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main10 .main .text .button a{text-decoration: none;color: #000;}
+.main10 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main11{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main11 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main11 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main11 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(57\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main11 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main11 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main11 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main11 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main11 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main11 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main11 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main11 .main .text .button a{text-decoration: none;color: #000;}
+.main11 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main11 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main11 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(78\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main11 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main11 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main11 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main11 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main11 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main11 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main11 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main11 .main .text .button a{text-decoration: none;color: #000;}
+.main11 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main11 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main11 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(79\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main11 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main11 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main11 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main11 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main11 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main11 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main11 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main11 .main .text .button a{text-decoration: none;color: #000;}
+.main11 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main12{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main12 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main12 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main12 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(80\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main12 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main12 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main12 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main12 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main12 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main12 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main12 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main12 .main .text .button a{text-decoration: none;color: #000;}
+.main12 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main12 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main12 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(81\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main12 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main12 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main12 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main12 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main12 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main12 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main12 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main12 .main .text .button a{text-decoration: none;color: #000;}
+.main12 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main12 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main12 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(2\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main12 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main12 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main12 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main12 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main12 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main12 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main12 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main12 .main .text .button a{text-decoration: none;color: #000;}
+.main12 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main13{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main13 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main13 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main13 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(3\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main13 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main13 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main13 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main13 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main13 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main13 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main13 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main13 .main .text .button a{text-decoration: none;color: #000;}
+.main13 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main13 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main13 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(4\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main13 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main13 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main13 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main13 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main13 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main13 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main13 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main13 .main .text .button a{text-decoration: none;color: #000;}
+.main13 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main13 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main13 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(5\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main13 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main13 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main13 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main13 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main13 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main13 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main13 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main13 .main .text .button a{text-decoration: none;color: #000;}
+.main13 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main14{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main14 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main14 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main14 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(6\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main14 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main14 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main14 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main14 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main14 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main14 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main14 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main14 .main .text .button a{text-decoration: none;color: #000;}
+.main14 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main14 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main14 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(7\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main14 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main14 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main14 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main14 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main14 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main14 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main14 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main14 .main .text .button a{text-decoration: none;color: #000;}
+.main14 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main14 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main14 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(8\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main14 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main14 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main14 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main14 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main14 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main14 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main14 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main14 .main .text .button a{text-decoration: none;color: #000;}
+.main14 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main15{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main15 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main15 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main15 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(9\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main15 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main15 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main15 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main15 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main15 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main15 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main15 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main15 .main .text .button a{text-decoration: none;color: #000;}
+.main15 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main15 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main15 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(10\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main15 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main15 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main15 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main15 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main15 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main15 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main15 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main15 .main .text .button a{text-decoration: none;color: #000;}
+.main15 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main15 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main15 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(11\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main15 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main15 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main15 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main15 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main15 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main15 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main15 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main15 .main .text .button a{text-decoration: none;color: #000;}
+.main15 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main16{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main16 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main16 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main16 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(12\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main16 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main16 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main16 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main16 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main16 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main16 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main16 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main16 .main .text .button a{text-decoration: none;color: #000;}
+.main16 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main16 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main16 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(13\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main16 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main16 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main16 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main16 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main16 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main16 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main16 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main16 .main .text .button a{text-decoration: none;color: #000;}
+.main16 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main16 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main16 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(14\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main16 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main16 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main16 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main16 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main16 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main16 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main16 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main16 .main .text .button a{text-decoration: none;color: #000;}
+.main16 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main17{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main17 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main17 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main17 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(15\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main17 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main17 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main17 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main17 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main17 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main17 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main17 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main17 .main .text .button a{text-decoration: none;color: #000;}
+.main17 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main17 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main17 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(16\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main17 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main17 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main17 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main17 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main17 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main17 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main17 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main17 .main .text .button a{text-decoration: none;color: #000;}
+.main17 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main17 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main17 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(17\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main17 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main17 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main17 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main17 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main17 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main17 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main17 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main17 .main .text .button a{text-decoration: none;color: #000;}
+.main17 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main18{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main18 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main18 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main18 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(18\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main18 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main18 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main18 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main18 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main18 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main18 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main18 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main18 .main .text .button a{text-decoration: none;color: #000;}
+.main18 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main18 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main18 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(19\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main18 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main18 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main18 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main18 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main18 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main18 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main18 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main18 .main .text .button a{text-decoration: none;color: #000;}
+.main18 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main18 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main18 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(20\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main18 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main18 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main18 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main18 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main18 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main18 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main18 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main18 .main .text .button a{text-decoration: none;color: #000;}
+.main18 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main19{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main19 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main19 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main19 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(21\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main19 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main19 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main19 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main19 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main19 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main19 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main19 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main19 .main .text .button a{text-decoration: none;color: #000;}
+.main19 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main19 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main19 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(22\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main19 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main19 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main19 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main19 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main19 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main19 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main19 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main19 .main .text .button a{text-decoration: none;color: #000;}
+.main19 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main19 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main19 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(23\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main19 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main19 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main19 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main19 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main19 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main19 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main19 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main19 .main .text .button a{text-decoration: none;color: #000;}
+.main19 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main20{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main20 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main20 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main20 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(24\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main20 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main20 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main20 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main20 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main20 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main20 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main20 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main20 .main .text .button a{text-decoration: none;color: #000;}
+.main20 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main20 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main20 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(25\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main20 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main20 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main20 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main20 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main20 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main20 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main20 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main20 .main .text .button a{text-decoration: none;color: #000;}
+.main20 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main20 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main20 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(26\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main20 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main20 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main20 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main20 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main20 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main20 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main20 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main20 .main .text .button a{text-decoration: none;color: #000;}
+.main20 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main21{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main21 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main21 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main21 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(27\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main21 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main21 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main21 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main21 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main21 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main21 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main21 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main21 .main .text .button a{text-decoration: none;color: #000;}
+.main21 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main21 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main21 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(28\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main21 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main21 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main21 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main21 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main21 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main21 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main21 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main21 .main .text .button a{text-decoration: none;color: #000;}
+.main21 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main21 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main21 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(29\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main21 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main21 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main21 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main21 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main21 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main21 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main21 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main21 .main .text .button a{text-decoration: none;color: #000;}
+.main21 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main22{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main22 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main22 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main22 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(30\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main22 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main22 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main22 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main22 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main22 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main22 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main22 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main22 .main .text .button a{text-decoration: none;color: #000;}
+.main22 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main22 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main22 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(31\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main22 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main22 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main22 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main22 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main22 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main22 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main22 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main22 .main .text .button a{text-decoration: none;color: #000;}
+.main22 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main22 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main22 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(32\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main22 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main22 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main22 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main22 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main22 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main22 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main22 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main22 .main .text .button a{text-decoration: none;color: #000;}
+.main22 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main23{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main23 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main23 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main23 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(33\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main23 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main23 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main23 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main23 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main23 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main23 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main23 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main23 .main .text .button a{text-decoration: none;color: #000;}
+.main23 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main23 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main23 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(34\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main23 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main23 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main23 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main23 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main23 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main23 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main23 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main23 .main .text .button a{text-decoration: none;color: #000;}
+.main23 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main23 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main23 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(35\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main23 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main23 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main23 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main23 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main23 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main23 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main23 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main23 .main .text .button a{text-decoration: none;color: #000;}
+.main23 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main24{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main24 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main24 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main24 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(36\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main24 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main24 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main24 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main24 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main24 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main24 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main24 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main24 .main .text .button a{text-decoration: none;color: #000;}
+.main24 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main24 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main24 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(37\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main24 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main24 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main24 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main24 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main24 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main24 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main24 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main24 .main .text .button a{text-decoration: none;color: #000;}
+.main24 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main24 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main24 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(38\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main24 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main24 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main24 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main24 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main24 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main24 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main24 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main24 .main .text .button a{text-decoration: none;color: #000;}
+.main24 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main25{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main25 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main25 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main25 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(39\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main25 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main25 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main25 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main25 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main25 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main25 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main25 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main25 .main .text .button a{text-decoration: none;color: #000;}
+.main25 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main25 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main25 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(40\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main25 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main25 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main25 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main25 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main25 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main25 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main25 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main25 .main .text .button a{text-decoration: none;color: #000;}
+.main25 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main25 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main25 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(41\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main25 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main25 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main25 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main25 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main25 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main25 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main25 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main25 .main .text .button a{text-decoration: none;color: #000;}
+.main25 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main26{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main26 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main26 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main26 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(42\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main26 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main26 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main26 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main26 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main26 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main26 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main26 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main26 .main .text .button a{text-decoration: none;color: #000;}
+.main26 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main26 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main26 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(43\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main26 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main26 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main26 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main26 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main26 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main26 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main26 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main26 .main .text .button a{text-decoration: none;color: #000;}
+.main26 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main26 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main26 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(44\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main26 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main26 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main26 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main26 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main26 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main26 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main26 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main26 .main .text .button a{text-decoration: none;color: #000;}
+.main26 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main27{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main27 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main27 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main27 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(45\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main27 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main27 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main27 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main27 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main27 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main27 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main27 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main27 .main .text .button a{text-decoration: none;color: #000;}
+.main27 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main27 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main27 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(46\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main27 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main27 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main27 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main27 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main27 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main27 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main27 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main27 .main .text .button a{text-decoration: none;color: #000;}
+.main27 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+.main27 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main27 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(47\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main27 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main27 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main27 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main27 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main27 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main27 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main27 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main27 .main .text .button a{text-decoration: none;color: #000;}
+.main27 .main .text .button a:hover{font-weight: bold;}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* 最外盒子 */
+.main28{width: 1450px;height: auto; display:block;margin: 0 auto;margin-top: 30px;}
+/*  */
+.main28 .main{background-color: rgb(255, 255, 255); width: 1450px; height: 600px;
+    display: flex;justify-content: space-between;align-items: center;}
+/*  */
+/* 左盒子 */
+.main28 .main .left{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;}
+.main28 .main .left .img{width: 450px;height: 260px;background:url(../img/d\ \(48\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main28 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main28 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main28 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main28 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main28 .main .text span{font-size: 1.2rem;line-height: 1.5rem;text-align: center;}
+.main28 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main28 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main28 .main .text .button a{text-decoration: none;color: #000;}
+.main28 .main .text .button a:hover{font-weight: bold;}
+/* 中间盒子 */
+.main28 .main .center{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;display: none;} /*隐藏盒子 */
+.main28 .main .center .img{width: 450px;height: 260px;background:url(../img/d\ \(51\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main28 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main28 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main28 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main28 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main28 .main .text span{font-size: 1.2rem;line-height: 1.5rem;}
+.main28 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main28 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main28 .main .text .button a{text-decoration: none;color: #000;}
+.main28 .main .text .button a:hover{font-weight: bold;}
+/* 右盒子 */
+ .main28 .main .right{width: 450px;height: 600px;border: 1px solid rgb(182, 182, 182); background-color: azure;display: none;} /*隐藏盒子 */
+.main28 .main .right .img{width: 450px;height: 260px;background:url(../img/d\ \(49\).jpg);
+     background-repeat: no-repeat;
+    background-size:cover;}
+.main28 .main .content-text{background-color: rgb(255, 255, 255); width:450px;height: 340px;
+    display: flex;align-items: center;justify-content: center;}
+.main28 .main .center-text{background-color: rgb(255, 255, 255);width: 380px;height: 340px;
+    display: flex;align-items: center;justify-content:center;}
+.main28 .main .text{background-color: rgb(255, 255, 255); width: 380px;height: 280px;
+    display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
+.main28 .main .p{background-color: rgb(255, 255, 255);width: 380px;height: 150px;
+display: flex;align-items: center;justify-content: center;}
+.main28 .main .text span{font-size: 1.2rem;line-height: 1.5rem;}
+.main28 .main .text .p p{font-size: 0.85rem;line-height: 1.3rem;text-align: center;}
+.main28 .main .text .button{width: 100px;height: 50px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);    
+}
+.main28 .main .text .button a{text-decoration: none;color: #000;}
+.main28 .main .text .button a:hover{font-weight: bold;}

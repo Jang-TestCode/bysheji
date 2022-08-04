@@ -1,0 +1,799 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.bt{
+	text-align:center;
+	font-size:22px;
+}
+.jr{
+	margin:0 auto;
+	padding:20px 40px;
+	position: relative;
+}
+.left{
+	float:left;
+	position:relative;
+}
+.left img{
+	width:970px;
+}
+.zt{
+	position:absolute;
+	top:580px;
+	float:left;
+}
+.zt a{
+	text-decoration:none;
+	color:#000;
+}
+.zt .aa,span{
+	font-size:13px;
+}
+.zt .gm{
+	width:124px;
+	height:48px;
+	margin-top:15px;
+	text-align:center;
+	line-height:48px;
+	border:1px solid #000;
+	border-radius:1.5rem;
+}
+.right{
+	float:left;
+	margin:0 40px;
+}
+.right p{
+	font-size:13px;
+	line-height:19px;
+}
+.item .bb{
+	width:430px;
+}
+.item div{
+	width:48px;
+	height:48px;
+	border:1px solid rgba(0,0,0,0.1);
+	float:right;
+	border-radius:50%;
+	position:absolute;
+	left:125%;
+	top:150%;
+	z-index:20;
+	text-align:center;
+	line-height:50px;
+}
+.i1 svg{
+	position:absolute;
+	left:30%;
+	top:-500px;
+	cursor:pointer;
+}
+#p1{
+	position: absolute;
+    display: block;
+    width:300px;
+    height:350px;
+}
+#p2,#p3,#p4,#p5,#p6{
+    position: absolute;
+    display: none;
+    width:300px;
+    height:350px;
+}
+.but{
+    width:30px;
+    height:40px;
+	margin-left:556px;
+    position: absolute;
+	top:270px;
+    border: none;
+	background:none;
+	z-index: 20;
+	font-size:25px;
+	opacity:0.6;
+	cursor: pointer;
+} 
+#le{
+    left:490px;
+}
+#ri{
+    left:900px;
+}
+.pointList{
+    position: absolute;
+    list-style: none;
+	left:80%;
+	top:640px;
+}
+.pointList .point{
+    float: left;
+    background-color: #999;
+    width:7px;
+    height:7px;
+    margin-left: 5px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+.pointList .active{
+	width:8px;
+    height:8px;
+	border-radius: 100%;
+    background: #000;
+}
+
+
+/*第2个div*/
+.jr1{
+	margin:700px auto;
+	padding:20px 40px;
+	position: relative;
+}
+.left1{
+	float:left;
+	position:relative;
+}
+.left1 img{
+	width:970px;
+	float:left;
+}
+.zt1{
+	position:absolute;
+	top:590px;
+	float:left;
+}
+.zt1 a{
+	text-decoration:none;
+	color:#000;
+}
+.zt1 span{
+	font-size:13px;
+}
+.zt1 .gm1{
+	width:124px;
+	height:48px;
+	margin-top:15px;
+	text-align:center;
+	line-height:48px;
+	border:1px solid #000;
+	border-radius:1.5rem;
+}
+.right1{
+	float:left;
+	margin:0 40px;
+}
+.right1 p{
+	font-size:13px;
+}
+.item1 .bb1{
+	width:430px;
+}
+.item1 div{
+	width:48px;
+	height:48px;
+	border:1px solid rgba(0,0,0,0.1);
+	float:right;
+	border-radius:50%;
+	position:absolute;
+	left:125%;
+	top:145%;
+	z-index:20;
+	text-align:center;
+	line-height:50px;
+}
+#ap1{
+	position: absolute;
+    display: block;
+    width:300px;
+    height:350px;
+}
+#ap2,#ap3,#ap4,#ap5,#ap6,#ap7{
+    position: absolute;
+    display: none;
+    width:300px;
+    height:350px;
+}
+.but1{
+    width:30px;
+    height:40px;
+	margin-left:556px;
+    position: absolute;
+	top:270px;
+    border: none;
+	z-index: 20;
+	background:none;
+	font-size:25px;
+	opacity:0.6;
+	cursor: pointer;
+} 
+#le1{
+    left:490px;
+}
+#ri1{
+    left:900px;
+}
+.pointList1{
+    position: absolute;
+    list-style: none;
+	left:80%;
+	top:630px;
+}
+.pointList1 .point1{
+    float: left;
+    background-color: #999;
+    width:7px;
+    height:7px;
+    margin-left: 5px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+.pointList1 .active1{
+	width:8px;
+    height:8px;
+	border-radius: 100%;
+    background: #000;
+}
+
+
+/*第3个div*/
+.jr2{
+	margin:700px auto;
+	padding:20px 40px;
+	position: relative;
+}
+.left2{
+	float:left;
+	position:relative;
+}
+.left2 img{
+	width:970px;
+	float:left;
+}
+.zt2{
+	position:absolute;
+	top:590px;
+	float:left;
+}
+.zt2 a{
+	text-decoration:none;
+	color:#000;
+}
+.zt2 .aa2,span{
+	font-size:13px;
+}
+.zt2 .gm2{
+	width:124px;
+	height:48px;
+	margin-top:15px;
+	text-align:center;
+	line-height:48px;
+	border:1px solid #000;
+	border-radius:1.5rem;
+}
+.right2{
+	float:left;
+	margin:0 40px;
+}
+.right2 p{
+	font-size:13px;
+}
+.item2 .bb1{
+	width:430px;
+}
+.item2 div{
+	width:48px;
+	height:48px;
+	border:1px solid rgba(0,0,0,0.1);
+	float:right;
+	border-radius:50%;
+	position:absolute;
+	left:125%;
+	top:150%;
+	z-index:20;
+	text-align:center;
+	line-height:50px;
+}
+#bp1{
+	position: absolute;
+    display: block;
+    width:300px;
+    height:350px;
+}
+#bp2,#bp3,#bp4{
+    position: absolute;
+    display: none;
+    width:300px;
+    height:350px;
+}
+.but2{
+    width:30px;
+    height:40px;
+	margin-left:556px;
+    position: absolute;
+	top:270px;
+    border: none;
+	z-index: 20;
+	background:none;
+	font-size:25px;
+	opacity:0.6;
+	cursor: pointer;
+} 
+#le2{
+    left:490px;
+}
+#ri2{
+    left:900px;
+}
+.pointList2{
+    position: absolute;
+    list-style: none;
+	left:80%;
+	top:630px;
+}
+.pointList2 .point2{
+    float: left;
+    background-color: #999;
+    width:7px;
+    height:7px;
+    margin-left: 5px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+.pointList2 .active2{
+	width:8px;
+    height:8px;
+	border-radius: 100%;
+    background: #000;
+}
+
+
+/*第4个div*/
+.jr3{
+	margin:700px auto;
+	padding:20px 40px;
+	position: relative;
+}
+.left3{
+	float:left;
+	position:relative;
+}
+.left3 img{
+	width:970px;
+	float:left;
+}
+.zt3{
+	position:absolute;
+	top:590px;
+	float:left;
+}
+.zt3 a{
+	text-decoration:none;
+	color:#000;
+}
+.zt3 .aa3,span{
+	font-size:13px;
+}
+.zt3 .gm3{
+	width:124px;
+	height:48px;
+	margin-top:15px;
+	text-align:center;
+	line-height:48px;
+	border:1px solid #000;
+	border-radius:1.5rem;
+}
+.right3{
+	float:left;
+	margin:0 40px;
+}
+.right3 p{
+	font-size:13px;
+}
+.item3 .bb1{
+	width:430px;
+}
+.item3 div{
+	width:48px;
+	height:48px;
+	border:1px solid rgba(0,0,0,0.1);
+	float:right;
+	border-radius:50%;
+	position:absolute;
+	left:125%;
+	top:145%;
+	z-index:20;
+	text-align:center;
+	line-height:50px;
+}
+#cp1{
+	position: absolute;
+    display: block;
+    width:300px;
+    height:350px;
+}
+#cp2,#cp3,#cp4,#cp5,#cp6,#cp7{
+    position: absolute;
+    display: none;
+    width:300px;
+    height:350px;
+}
+.but3{
+    width:30px;
+    height:40px;
+	margin-left:556px;
+    position: absolute;
+	top:270px;
+    border: none;
+	z-index: 20;
+	background:none;
+	font-size:25px;
+	opacity:0.6;
+	cursor: pointer;
+} 
+#le3{
+    left:490px;
+}
+#ri3{
+    left:900px;
+}
+.pointList3{
+    position: absolute;
+    list-style: none;
+	left:80%;
+	top:630px;
+}
+.pointList3 .point3{
+    float: left;
+    background-color: #999;
+    width:7px;
+    height:7px;
+    margin-left: 5px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+.pointList3 .active3{
+	width:8px;
+    height:8px;
+	border-radius: 100%;
+    background: #000;
+}
+
+
+/*第5个div*/
+.jr4{
+	margin:700px auto;
+	padding:20px 40px;
+	position: relative;
+}
+.left4{
+	float:left;
+	position:relative;
+}
+.left4 img{
+	width:970px;
+	float:left;
+}
+.zt4{
+	position:absolute;
+	top:590px;
+	float:left;
+}
+.zt4 a{
+	text-decoration:none;
+	color:#000;
+}
+.zt4 span{
+	font-size:13px;
+}
+.zt4 .gm4{
+	width:124px;
+	height:48px;
+	margin-top:15px;
+	text-align:center;
+	line-height:48px;
+	border:1px solid #000;
+	border-radius:1.5rem;
+}
+.right4{
+	float:left;
+	margin:0 40px;
+}
+.right4 p{
+	font-size:13px;
+}
+.item4 .bb1{
+	width:430px;
+}
+.item4 div{
+	width:48px;
+	height:48px;
+	border:1px solid rgba(0,0,0,0.1);
+	float:right;
+	border-radius:50%;
+	position:absolute;
+	left:125%;
+	top:150%;
+	z-index:20;
+	text-align:center;
+	line-height:50px;
+}
+#dp1{
+	position: absolute;
+    display: block;
+    width:300px;
+    height:350px;
+}
+#dp2,#dp3,#dp4,#dp5{
+    position: absolute;
+    display: none;
+    width:300px;
+    height:350px;
+}
+.but4{
+    width:30px;
+    height:40px;
+	margin-left:556px;
+    position: absolute;
+	top:270px;
+    border: none;
+	z-index: 20;
+	background:none;
+	font-size:25px;
+	opacity:0.6;
+	cursor: pointer;
+} 
+#le4{
+    left:490px;
+}
+#ri4{
+    left:900px;
+}
+.pointList4{
+    position: absolute;
+    list-style: none;
+	left:80%;
+	top:630px;
+}
+.pointList4 .point4{
+    float: left;
+    background-color: #999;
+    width:7px;
+    height:7px;
+    margin-left: 5px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+.pointList4 .active4{
+	width:8px;
+    height:8px;
+	border-radius: 100%;
+    background: #000;
+}
+
+
+/*第6个div*/
+.jr5{
+	margin:700px auto;
+	padding:20px 40px;
+	position: relative;
+}
+.left5{
+	float:left;
+	position:relative;
+}
+.left5 img{
+	width:970px;
+	float:left;
+}
+.zt5{
+	position:absolute;
+	top:590px;
+	float:left;
+}
+.zt5 a{
+	text-decoration:none;
+	color:#000;
+}
+.zt5 span{
+	font-size:13px;
+}
+.zt5 .gm5{
+	width:124px;
+	height:48px;
+	margin-top:15px;
+	text-align:center;
+	line-height:48px;
+	border:1px solid #000;
+	border-radius:1.5rem;
+}
+.right5{
+	float:left;
+	margin:0 40px;
+}
+.right5 p{
+	font-size:13px;
+}
+.item5 .bb1{
+	width:430px;
+}
+.item5 div{
+	width:48px;
+	height:48px;
+	border:1px solid rgba(0,0,0,0.1);
+	float:right;
+	border-radius:50%;
+	position:absolute;
+	left:125%;
+	top:150%;
+	z-index:20;
+	text-align:center;
+	line-height:50px;
+}
+#ep1{
+	position: absolute;
+    display: block;
+    width:300px;
+    height:350px;
+}
+#ep2,#ep3,#ep4{
+    position: absolute;
+    display: none;
+    width:300px;
+    height:350px;
+}
+.but5{
+    width:30px;
+    height:40px;
+	margin-left:556px;
+    position: absolute;
+	top:270px;
+    border: none;
+	z-index: 20;
+	background:none;
+	font-size:25px;
+	opacity:0.6;
+	cursor: pointer;
+} 
+#le5{
+    left:490px;
+}
+#ri5{
+    left:900px;
+}
+.pointList5{
+    position: absolute;
+    list-style: none;
+	left:80%;
+	top:630px;
+}
+.pointList5 .point5{
+    float: left;
+    background-color: #999;
+    width:7px;
+    height:7px;
+    margin-left: 5px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+.pointList5 .active5{
+	width:8px;
+    height:8px;
+	border-radius: 100%;
+    background: #000;
+}
+
+
+
+/*第7个div*/
+.jr6{
+	margin:700px auto;
+	padding:20px 40px;
+	position: relative;
+}
+.left6{
+	float:left;
+	position:relative;
+}
+.left6 img{
+	width:970px;
+	float:left;
+}
+.zt6{
+	position:absolute;
+	top:590px;
+	float:left;
+}
+.zt6 a{
+	text-decoration:none;
+	color:#000;
+}
+.zt6 span{
+	font-size:13px;
+}
+.zt6 .gm6{
+	width:124px;
+	height:48px;
+	margin-top:15px;
+	text-align:center;
+	line-height:48px;
+	border:1px solid #000;
+	border-radius:1.5rem;
+}
+.right6{
+	float:left;
+	margin:0 40px;
+}
+.right6 p{
+	font-size:13px;
+}
+.item6 .bb1{
+	width:430px;
+}
+.item6 div{
+	width:48px;
+	height:48px;
+	border:1px solid rgba(0,0,0,0.1);
+	float:right;
+	border-radius:50%;
+	position:absolute;
+	left:125%;
+	top:150%;
+	z-index:20;
+	text-align:center;
+	line-height:50px;
+}
+#fp1{
+	position: absolute;
+    display: block;
+    width:300px;
+    height:350px;
+}
+#fp2,#fp3{
+    position: absolute;
+    display: none;
+    width:300px;
+    height:350px;
+}
+.but6{
+    width:30px;
+    height:40px;
+	margin-left:556px;
+    position: absolute;
+	top:270px;
+    border: none;
+	z-index: 20;
+	background:none;
+	font-size:25px;
+	opacity:0.6;
+	cursor: pointer;
+} 
+#le6{
+    left:490px;
+}
+#ri6{
+    left:900px;
+}
+.pointList6{
+    position: absolute;
+    list-style: none;
+	left:80%;
+	top:630px;
+}
+.pointList6 .point6{
+    float: left;
+    background-color: #999;
+    width:7px;
+    height:7px;
+    margin-left: 5px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+.pointList6 .active6{
+	width:8px;
+    height:8px;
+	border-radius: 100%;
+    background: #000;
+}

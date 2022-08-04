@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.bt{
+	font-size:36px;
+	text-align:center;
+}
+.zp{
+	margin:25px auto;
+}
+.zp img{
+	width:329px;
+}
+.zp div{
+	width:330px;
+	float:left;
+	margin:0 0 10px 40px;
+}
+.zp1{
+	margin:60px 40px;
+}
+.zp1 .aa{
+	font-size:24px;
+	margin-top:30px;
+}
+.zp1 .bb{
+	margin:20px 0;
+	width:230px;
+	height:50px;
+	border:1px solid #000;
+	text-align:center;
+	line-height:50px;
+	border-radius:1.5rem;
+	color:#FFF;
+	background-color:#000;
+	font-size:14px;
+	position:relative;
+}
+.zp1 .bb svg{
+	position:absolute;
+	top:30%;
+	left:27%;
+}
+.zp2{
+	margin:60px 40px;
+}
+.zp2 .aa{
+	font-size:24px;
+	margin-top:30px;
+}
+.zp2 .bb{
+	margin:20px 0;
+	width:230px;
+	height:50px;
+	border:1px solid #000;
+	text-align:center;
+	line-height:50px;
+	border-radius:1.5rem;
+	color:#FFF;
+	background-color:#000;
+	font-size:14px;
+	position:relative;
+}
+.zp2 .bb svg{
+	position:absolute;
+	top:30%;
+	left:27%;
+	}
+.zp3{
+	margin:60px 40px;
+}
+.zp3 .aa{
+	font-size:24px;
+	margin-top:30px;
+}
+.zp3 .bb{
+	margin:20px 0;
+	width:230px;
+	height:50px;
+	border:1px solid #000;
+	text-align:center;
+	line-height:50px;
+	border-radius:1.5rem;
+	color:#FFF;
+	background-color:#000;
+	font-size:14px;
+	position:relative;
+}
+.zp3 .bb svg{
+	position:absolute;
+	top:30%;
+	left:27%;
+	}
+
+.jr{
+	margin:30px auto;
+	padding:20px 40px;
+	position: relative;
+}
+.left{
+	float:left;
+	position:relative;
+}
+.left img{
+	width:970px;
+}
+.zt{
+	position:absolute;
+	top:580px;
+	float:left;
+}
+.zt a{
+	text-decoration:none;
+	color:#000;
+}
+.zt .aa,span{
+	font-size:13px;
+}
+.zt .gm{
+	width:124px;
+	height:48px;
+	margin-top:15px;
+	text-align:center;
+	line-height:48px;
+	border:1px solid #000;
+	border-radius:1.5rem;
+}
+.right{
+	float:left;
+	margin:0 40px;
+}
+.right p{
+	font-size:13px;
+	line-height:19px;
+}
+.item .bb{
+	width:430px;
+}
+.item div{
+	width:48px;
+	height:48px;
+	border:1px solid rgba(0,0,0,0.1);
+	float:right;
+	border-radius:50%;
+	position:absolute;
+	left:125%;
+	top:150%;
+	z-index:20;
+	text-align:center;
+	line-height:50px;
+}
+.i1 svg{
+	position:absolute;
+	left:30%;
+	top:-500px;
+	cursor:pointer;
+}
+#p1{
+	position: absolute;
+    display: block;
+    width:300px;
+    height:350px;
+}
+#p2,#p3,#p4,#p5,#p6,#p7{
+    position: absolute;
+    display: none;
+    width:300px;
+    height:350px;
+}
+.but{
+    width:30px;
+    height:40px;
+	margin-left:556px;
+    position: absolute;
+	top:270px;
+    border: none;
+	background:none;
+	z-index: 20;
+	font-size:25px;
+	opacity:0.6;
+	cursor: pointer;
+} 
+#le{
+    left:490px;
+}
+#ri{
+    left:900px;
+}
+.pointList{
+    position: absolute;
+    list-style: none;
+	left:80%;
+	top:640px;
+}
+.pointList .point{
+    float: left;
+    background-color: #999;
+    width:7px;
+    height:7px;
+    margin-left: 5px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+.pointList .active{
+	width:8px;
+    height:8px;
+	border-radius: 100%;
+    background: #000;
+}
+
+.zp4{
+	margin:660px 40px 0 40px;
+}
+.zp4 .bt{
+	font-size:36px;
+	text-align:center;
+	padding:30px 0;
+}
+
+.zp5{
+	margin:25px 0 500px 0;
+}
+.zp5 img{
+	width:329px;
+}
+.zp5 div{
+	width:330px;
+	float:left;
+	margin:0 0 10px 40px;
+}
+.zp5 div p{
+	font-weight:300;
+}
